@@ -4,28 +4,28 @@
 <head>
   <meta charset="utf-8">
   <title>My First Blog</title>
-  <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
-  <style type="text/css">
-	body {
-		background-color: violet;
-	}
-
-	#thank-you {
-		border-radius: 10%;
-	}
-  </style>
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>
 
+	<button id="mainButton">Press Me</button>
+
 	<!-- This is my navigation bar -->
  	<nav>
+	 	<ul class="nav">
+	 		<li class="link--github"><a href="https://github.com/">Git Hub</a></li>
+	 		<li class="link--google"><a href="http://www.google.com">Google</a></li>
+	 		<li class="link--treehouse"><a href="http://www.teamtreehouse.com">Treehouse</a></li>
+	 	</ul>
  	</nav>
 
  	<header>
  	</header>
 
-	<article>
+	<p>Top Paragraph</p>
+
+	<article class="page--article">
 		<header>
 			<img src="http://p0g.com/wp-content/uploads/2015/04/WorldOfTravel.jpg" alt="Traveling" width="650" height="400">
 			<h2>Goal: Traveling</h2>
@@ -39,7 +39,7 @@
 		</footer>
 	</article>
 
-	<article>
+	<article class="page--article">
 		<header>
 			<img id="thank-you" src="http://library.escondido.org/Data/Sites/2/media/images/research/languages.jpg" alt="Thank You in Different Laguages">
 			<h2>Coding is Like Learning a Foreign Language</h2>
@@ -53,7 +53,7 @@
 		</footer>
 	</article>
 
-	<article>
+	<article class="page--article">
 		<header>
 			<img src="http://www.frukmagazine.com/wp-content/uploads/2015/11/coffeeeee.jpg" alt="Picture of Fancy Coffee" width="600" height="400">
 			<h2>Why Coders Constantly Consume Coffee</h2>
@@ -66,9 +66,7 @@
 			<time>01/06/2016</time>
 		</footer>
 	</article>
-
-	<button id="mainButton">Press Me</button>
-
+	<p>Last Paragraph</p>
 	<footer>&copy; 2016 Erin Orstrom </footer>
 
 </body>
